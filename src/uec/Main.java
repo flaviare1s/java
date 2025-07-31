@@ -11,6 +11,9 @@ public class Main {
         lutador[4] = new Lutador("UFO Cobol", "França", 31, 119.9f, 1.77f, 1, 2, 11);
         lutador[5] = new Lutador("Nerdaart", "França", 30, 105.9f, 1.89f, 15, 2, 1);
 
-        lutador[1].apresentar();
+        Luta luta1 = new Luta();
+
+        luta1.marcarLuta(lutador[4], lutador[5]);
+        luta1.lutar();
     }
 }
