@@ -8,6 +8,7 @@ public class Main {
         Reptil animal4 = new Reptil();
         Canguru animal5 = new Canguru();
         Tartaruga animal6 = new Tartaruga();
+        Cachorro animal7 = new Cachorro();
 
         animal1.alimentar();
         animal1.soltarBolha();
@@ -20,5 +21,6 @@ public class Main {
         animal4.locomover();
         animal5.locomover();
         animal6.locomover();
+        animal7.emitirSom();
     }
 }
