@@ -16,6 +16,7 @@ public class Cachorro extends Lobo {
             System.out.println("Ignorar");
         } else {
             System.out.println("Abanar e latir!");
+            this.emitirSom();
         }
     }
 
@@ -24,6 +25,7 @@ public class Cachorro extends Lobo {
             System.out.println("Abanar");
         } else {
             System.out.println("Rosnar e latir!");
+            this.emitirSom();
         }
     }
 
@@ -33,6 +35,7 @@ public class Cachorro extends Lobo {
                 System.out.println("Abanar");
             } else {
                 System.out.println("Latir!");
+                this.emitirSom();
             }
         } else {
             if (peso < 10) {
