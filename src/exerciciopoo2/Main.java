@@ -16,5 +16,16 @@ public class Main {
         g[1] = new Gafanhoto("Creuza", 20, "F", "creuzinha");
 
         System.out.println(g[0]);
+
+        Visualizacao[] visualizacao = new Visualizacao[5];
+
+        visualizacao[0] = new Visualizacao(g[0], v[0]);
+        visualizacao[1] = new Visualizacao(g[0], v[1]);
+
+        System.out.println(visualizacao[0].toString());
+        System.out.println(visualizacao[1].toString());
+
+        visualizacao[0].avaliar(90.0f);
+        System.out.println(v[0]);
     }
 }
