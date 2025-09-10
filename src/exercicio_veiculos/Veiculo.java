@@ -1,9 +1,9 @@
 package exercicio_veiculos;
 
 public abstract class Veiculo {
-    private  String marca;
-    private String modelo;
-    private int ano;
+    protected  String marca;
+    protected String modelo;
+    protected int ano;
 
     public Veiculo(String marca, String modelo, int ano) {
         this.marca = marca;

@@ -46,7 +46,7 @@ public class Proprietario {
 
         if (veiculos.isEmpty()) {
             System.out.println("Nenhum veículo cadastrado.");
-            return; // sai do método
+            return;
         }
 
         for (Veiculo veiculo : veiculos) {
